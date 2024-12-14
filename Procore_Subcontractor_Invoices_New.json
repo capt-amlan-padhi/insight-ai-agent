@@ -1,0 +1,557 @@
+[
+  {
+    "id": 58820,
+    "previous_requisition_id": 58819,
+    "project_id": 789,
+    "billing_date": "2013-11-20",
+    "created_at": "2013-11-15T12:00:00Z",
+    "updated_at": "2013-11-15T12:00:00Z",
+    "commitment_id": 701973,
+    "commitment_type": "WorkOrderContract",
+    "contract_name": "Contract SC-001",
+    "deletable": false,
+    "final": true,
+    "vendor_name": "Ernie's Electrical",
+    "vendor_id": 8881212,
+    "invoice_number": 123,
+    "origin_data": "XYZ-0012",
+    "origin_id": "abc-123",
+    "payment_date": "2013-11-15",
+    "percent_complete": 0,
+    "period_id": 4293,
+    "requisition_start": "2013-11-01",
+    "requisition_end": "2013-11-02",
+    "status": "approved",
+    "erp_status": "synced",
+    "number": 1,
+    "submitted_at": "2013-11-02",
+    "total_claimed_amount": "100.00",
+    "electronic_signature_id": 701973,
+    "move_materials_to_previous_work_completed": false,
+    "summary_text": {
+      "project_name": "Project",
+      "project_number": "100",
+      "to_general_contractor": "Company A",
+      "requisition_period_start": "2010-01-01",
+      "requisition_period_end": "2010-01-01",
+      "subcontractor_name": "Company B",
+      "subcontractor_street": "101 XYZ Avenue",
+      "subcontractor_city": "New York",
+      "subcontractor_state_code": "NY",
+      "subcontractor_zip": "10101",
+      "subcontractor_country_code": "US",
+      "application_number": "1",
+      "contract_for": "Ceiling Tiles",
+      "contract_date": "2010-01-01"
+    },
+    "summary": {
+      "balance_to_finish_including_retainage": 1268346.55,
+      "completed_work_retainage_percent": 10,
+      "completed_work_retainage_amount": "1201.0",
+      "contract_sum_to_date": 1279159.15,
+      "current_payment_due": 10812.6,
+      "formatted_period": "01/06/19 - 30/06/19",
+      "less_previous_certificates_for_payment": 0,
+      "negative_change_order_item_total": 0,
+      "negative_new_change_order_item_total": 0,
+      "negative_previous_change_order_item_total": 0,
+      "net_change_by_change_orders": 256706.65,
+      "original_contract_sum": 1022452.5,
+      "positive_change_order_item_total": "0.00",
+      "positive_new_change_order_item_total": "0.00",
+      "positive_previous_change_order_item_total": "0.00",
+      "stored_materials_retainage_amount": 0.4,
+      "stored_materials_retainage_percent": 10,
+      "tax_applicable_to_this_payment": 0,
+      "total_completed_and_stored_to_date": 1201.4,
+      "total_earned_less_retainage": 10812.6,
+      "total_retainage": 1201.4,
+      "new_materials": "1975.31",
+      "new_materials_quantity": "98.7654",
+      "stored_materials": "716.05",
+      "stored_materials_quantity": "35.80249"
+    },
+    "created_by": {
+      "id": 1738090,
+      "name": "John Doe",
+      "login": "johndoe@example.com",
+      "company_name": "Builders Inc."
+    },
+    "custom_fields": {
+      "custom_field_%{custom_field_string_definition_id}": {
+        "data_type": "string",
+        "value": "custom field value"
+      },
+      "custom_field_%{custom_field_decimal_definition_id}": {
+        "data_type": "decimal",
+        "value": 2.2
+      },
+      "custom_field_%{custom_field_boolean_definition_id}": {
+        "data_type": "boolean",
+        "value": true
+      },
+      "custom_field_%{custom_field_lov_entry_definition_id}": {
+        "data_type": "lov_entry",
+        "value": {
+          "id": 1,
+          "label": "Open"
+        }
+      },
+      "custom_field_%{custom_field_lov_entries_definition_id}": {
+        "data_type": "lov_entries",
+        "value": [
+          {
+            "id": 2,
+            "label": "Open"
+          }
+        ]
+      }
+    },
+    "currency_configuration": {
+      "currency_iso_code": "USD",
+      "currency_exchange_rate": 1.8,
+      "base_currency_iso_code": "EUR"
+    },
+    "attachments": [
+      {
+        "id": 5324,
+        "url": "http://www.example.com/",
+        "filename": "january_receipt_copy.jpg",
+        "content_type": "image/jpeg"
+      }
+    ],
+    "items": [
+      {
+        "id": 341256,
+        "item_type": "contract_detail_item",
+        "accounting_method": "amount",
+        "cost_code_id": 21585118,
+        "currency_configuration": {
+          "currency_iso_code": "USD",
+          "currency_exchange_rate": 1.8,
+          "base_currency_iso_code": "EUR"
+        },
+        "line_item_id": 3129856,
+        "description_of_work": "Install windows",
+        "net_amount": "100.00",
+        "gross_amount": "200.00",
+        "wbs_code": {
+          "id": 44,
+          "flat_code": "2.E",
+          "description": "Earthwork.Equipment",
+          "segment_items": [
+            {
+              "id": 55,
+              "code": 2,
+              "name": "Earthwork",
+              "path_ids": [[55]],
+              "path_codes": [["2 - Earthwork"]],
+              "segment_type": "cost_code",
+              "segment_id": 42
+            }
+          ]
+        },
+        "scheduled_value": "1.00",
+        "work_completed_from_previous_application": "0.00",
+        "work_completed_this_period": "0.00",
+        "materials_presently_stored": "2691.36",
+        "materials_presently_stored_quantity": "134.56789",
+        "materials_presently_stored_from_previous_progress": "0.00",
+        "materials_previously_stored_quantity": 12.3456,
+        "materials_moved": "0.00",
+        "materials_retainage_retained_moved": "0.00",
+        "total_completed_and_stored_to_date": "0.00",
+        "total_completed_and_stored_to_date_percent": "0.0",
+        "total_completed_and_stored_to_date_from_previous": "100.00",
+        "work_completed_retainage_from_previous_application": "0.0",
+        "work_completed_retainage_retained_this_period": "0.0",
+        "work_completed_retainage_percent_this_period": "10.0",
+        "materials_stored_retainage_currently_retained": "0.0",
+        "materials_stored_retainage_percent_this_period": "10.0",
+        "materials_stored_retainage_new_materials": "10.0",
+        "work_completed_retainage_released_this_period": "0.0",
+        "materials_stored_retainage_released_this_period": "0.0",
+        "scheduled_quantity": "0.0",
+        "scheduled_unit_price": "20.0",
+        "work_completed_this_period_quantity": "0.0",
+        "work_completed_from_previous_application_quantity": "0.0",
+        "comment": "Installation charges",
+        "status": "no_action",
+        "position": 1,
+        "line_number": "1.1",
+        "ssr_manual_override": false,
+        "subcontractor_claimed_amount": "0.0"
+      }
+    ]
+  },
+  {
+    "id": 60000,
+    "previous_requisition_id": 59999,
+    "project_id": 789,
+    "billing_date": "2014-01-10",
+    "created_at": "2014-01-05T08:00:00Z",
+    "updated_at": "2014-01-05T08:00:00Z",
+    "commitment_id": 702000,
+    "commitment_type": "WorkOrderContract",
+    "contract_name": "Contract SC-002",
+    "deletable": false,
+    "final": false,
+    "vendor_name": "ACME Plumbing",
+    "vendor_id": 9991213,
+    "invoice_number": 456,
+    "origin_data": "XYZ-0013",
+    "origin_id": "abc-456",
+    "payment_date": "2014-01-11",
+    "percent_complete": 25,
+    "period_id": 4300,
+    "requisition_start": "2014-01-01",
+    "requisition_end": "2014-01-05",
+    "status": "pending",
+    "erp_status": "not_synced",
+    "number": 2,
+    "submitted_at": "2014-01-06",
+    "total_claimed_amount": "5000.00",
+    "electronic_signature_id": 702000,
+    "move_materials_to_previous_work_completed": true,
+    "summary_text": {
+      "project_name": "Project",
+      "project_number": "100",
+      "to_general_contractor": "Company A",
+      "requisition_period_start": "2010-02-01",
+      "requisition_period_end": "2010-02-10",
+      "subcontractor_name": "Company C",
+      "subcontractor_street": "202 Main Street",
+      "subcontractor_city": "Boston",
+      "subcontractor_state_code": "MA",
+      "subcontractor_zip": "02110",
+      "subcontractor_country_code": "US",
+      "application_number": "2",
+      "contract_for": "Plumbing Work",
+      "contract_date": "2010-02-01"
+    },
+    "summary": {
+      "balance_to_finish_including_retainage": 500000.00,
+      "completed_work_retainage_percent": 5,
+      "completed_work_retainage_amount": "250.0",
+      "contract_sum_to_date": 600000.00,
+      "current_payment_due": 4750.0,
+      "formatted_period": "01/02/19 - 10/02/19",
+      "less_previous_certificates_for_payment": 1000,
+      "negative_change_order_item_total": 0,
+      "negative_new_change_order_item_total": 0,
+      "negative_previous_change_order_item_total": 0,
+      "net_change_by_change_orders": 50000.00,
+      "original_contract_sum": 550000.0,
+      "positive_change_order_item_total": "0.00",
+      "positive_new_change_order_item_total": "0.00",
+      "positive_previous_change_order_item_total": "0.00",
+      "stored_materials_retainage_amount": 50.0,
+      "stored_materials_retainage_percent": 5,
+      "tax_applicable_to_this_payment": 0,
+      "total_completed_and_stored_to_date": 250.0,
+      "total_earned_less_retainage": 4750.0,
+      "total_retainage": 250.0,
+      "new_materials": "1000.00",
+      "new_materials_quantity": "50.0",
+      "stored_materials": "500.00",
+      "stored_materials_quantity": "25.0"
+    },
+    "created_by": {
+      "id": 1738091,
+      "name": "Jane Smith",
+      "login": "janesmith@example.com",
+      "company_name": "Builders Inc."
+    },
+    "custom_fields": {
+      "custom_field_%{custom_field_string_definition_id}": {
+        "data_type": "string",
+        "value": "custom string"
+      },
+      "custom_field_%{custom_field_decimal_definition_id}": {
+        "data_type": "decimal",
+        "value": 10.5
+      },
+      "custom_field_%{custom_field_boolean_definition_id}": {
+        "data_type": "boolean",
+        "value": false
+      },
+      "custom_field_%{custom_field_lov_entry_definition_id}": {
+        "data_type": "lov_entry",
+        "value": {
+          "id": 2,
+          "label": "In Progress"
+        }
+      },
+      "custom_field_%{custom_field_lov_entries_definition_id}": {
+        "data_type": "lov_entries",
+        "value": [
+          {
+            "id": 3,
+            "label": "In Progress"
+          }
+        ]
+      }
+    },
+    "currency_configuration": {
+      "currency_iso_code": "USD",
+      "currency_exchange_rate": 1.9,
+      "base_currency_iso_code": "EUR"
+    },
+    "attachments": [
+      {
+        "id": 5325,
+        "url": "http://www.example.com/receipt_feb.jpg",
+        "filename": "february_receipt_copy.jpg",
+        "content_type": "image/jpeg"
+      }
+    ],
+    "items": [
+      {
+        "id": 341257,
+        "item_type": "contract_detail_item",
+        "accounting_method": "amount",
+        "cost_code_id": 21585119,
+        "currency_configuration": {
+          "currency_iso_code": "USD",
+          "currency_exchange_rate": 1.9,
+          "base_currency_iso_code": "EUR"
+        },
+        "line_item_id": 3129857,
+        "description_of_work": "Install pipes",
+        "net_amount": "3000.00",
+        "gross_amount": "4000.00",
+        "wbs_code": {
+          "id": 45,
+          "flat_code": "3.A",
+          "description": "Plumbing.Assembly",
+          "segment_items": [
+            {
+              "id": 56,
+              "code": 3,
+              "name": "Plumbing",
+              "path_ids": [[56]],
+              "path_codes": [["3 - Plumbing"]],
+              "segment_type": "cost_code",
+              "segment_id": 43
+            }
+          ]
+        },
+        "scheduled_value": "50.00",
+        "work_completed_from_previous_application": "10.00",
+        "work_completed_this_period": "15.00",
+        "materials_presently_stored": "500.00",
+        "materials_presently_stored_quantity": "25.0",
+        "materials_presently_stored_from_previous_progress": "0.00",
+        "materials_previously_stored_quantity": 5.0,
+        "materials_moved": "0.00",
+        "materials_retainage_retained_moved": "0.00",
+        "total_completed_and_stored_to_date": "25.00",
+        "total_completed_and_stored_to_date_percent": "50.0",
+        "total_completed_and_stored_to_date_from_previous": "10.00",
+        "work_completed_retainage_from_previous_application": "0.0",
+        "work_completed_retainage_retained_this_period": "1.0",
+        "work_completed_retainage_percent_this_period": "5.0",
+        "materials_stored_retainage_currently_retained": "0.0",
+        "materials_stored_retainage_percent_this_period": "5.0",
+        "materials_stored_retainage_new_materials": "5.0",
+        "work_completed_retainage_released_this_period": "0.0",
+        "materials_stored_retainage_released_this_period": "0.0",
+        "scheduled_quantity": "10.0",
+        "scheduled_unit_price": "200.0",
+        "work_completed_this_period_quantity": "2.0",
+        "work_completed_from_previous_application_quantity": "1.0",
+        "comment": "Pipe installation",
+        "status": "in_progress",
+        "position": 2,
+        "line_number": "2.1",
+        "ssr_manual_override": false,
+        "subcontractor_claimed_amount": "0.0"
+      }
+    ]
+  },
+  {
+    "id": 61000,
+    "previous_requisition_id": 60999,
+    "project_id": 790,
+    "billing_date": "2014-03-15",
+    "created_at": "2014-03-10T09:00:00Z",
+    "updated_at": "2014-03-10T09:00:00Z",
+    "commitment_id": 703000,
+    "commitment_type": "WorkOrderContract",
+    "contract_name": "Contract SC-003",
+    "deletable": false,
+    "final": false,
+    "vendor_name": "Deluxe Interiors",
+    "vendor_id": 7770001,
+    "invoice_number": 789,
+    "origin_data": "XYZ-0020",
+    "origin_id": "abc-789",
+    "payment_date": "2014-03-20",
+    "percent_complete": 50,
+    "period_id": 4500,
+    "requisition_start": "2014-03-01",
+    "requisition_end": "2014-03-10",
+    "status": "approved",
+    "erp_status": "synced",
+    "number": 3,
+    "submitted_at": "2014-03-10",
+    "total_claimed_amount": "10000.00",
+    "electronic_signature_id": 703000,
+    "move_materials_to_previous_work_completed": false,
+    "summary_text": {
+      "project_name": "Expansion",
+      "project_number": "200",
+      "to_general_contractor": "Company B",
+      "requisition_period_start": "2011-01-01",
+      "requisition_period_end": "2011-01-15",
+      "subcontractor_name": "Company D",
+      "subcontractor_street": "303 Industrial Road",
+      "subcontractor_city": "Chicago",
+      "subcontractor_state_code": "IL",
+      "subcontractor_zip": "60606",
+      "subcontractor_country_code": "US",
+      "application_number": "3",
+      "contract_for": "Interior Finishing",
+      "contract_date": "2011-01-01"
+    },
+    "summary": {
+      "balance_to_finish_including_retainage": 250000.00,
+      "completed_work_retainage_percent": 8,
+      "completed_work_retainage_amount": "800.0",
+      "contract_sum_to_date": 300000.00,
+      "current_payment_due": 9200.0,
+      "formatted_period": "01/03/19 - 10/03/19",
+      "less_previous_certificates_for_payment": 200,
+      "negative_change_order_item_total": 0,
+      "negative_new_change_order_item_total": 0,
+      "negative_previous_change_order_item_total": 0,
+      "net_change_by_change_orders": 50000.00,
+      "original_contract_sum": 250000.0,
+      "positive_change_order_item_total": "0.00",
+      "positive_new_change_order_item_total": "0.00",
+      "positive_previous_change_order_item_total": "0.00",
+      "stored_materials_retainage_amount": 100.0,
+      "stored_materials_retainage_percent": 8,
+      "tax_applicable_to_this_payment": 0,
+      "total_completed_and_stored_to_date": 2000.0,
+      "total_earned_less_retainage": 9200.0,
+      "total_retainage": 800.0,
+      "new_materials": "3000.00",
+      "new_materials_quantity": "150.0",
+      "stored_materials": "1200.00",
+      "stored_materials_quantity": "60.0"
+    },
+    "created_by": {
+      "id": 1738092,
+      "name": "Alice Brown",
+      "login": "alicebrown@example.com",
+      "company_name": "ConstructPlus"
+    },
+    "custom_fields": {
+      "custom_field_%{custom_field_string_definition_id}": {
+        "data_type": "string",
+        "value": "high-end finish"
+      },
+      "custom_field_%{custom_field_decimal_definition_id}": {
+        "data_type": "decimal",
+        "value": 5.5
+      },
+      "custom_field_%{custom_field_boolean_definition_id}": {
+        "data_type": "boolean",
+        "value": true
+      },
+      "custom_field_%{custom_field_lov_entry_definition_id}": {
+        "data_type": "lov_entry",
+        "value": {
+          "id": 4,
+          "label": "Approved"
+        }
+      },
+      "custom_field_%{custom_field_lov_entries_definition_id}": {
+        "data_type": "lov_entries",
+        "value": [
+          {
+            "id": 5,
+            "label": "Approved"
+          }
+        ]
+      }
+    },
+    "currency_configuration": {
+      "currency_iso_code": "USD",
+      "currency_exchange_rate": 2.0,
+      "base_currency_iso_code": "EUR"
+    },
+    "attachments": [
+      {
+        "id": 5326,
+        "url": "http://www.example.com/march_receipt_copy.jpg",
+        "filename": "march_receipt_copy.jpg",
+        "content_type": "image/jpeg"
+      }
+    ],
+    "items": [
+      {
+        "id": 341300,
+        "item_type": "contract_detail_item",
+        "accounting_method": "amount",
+        "cost_code_id": 21585200,
+        "currency_configuration": {
+          "currency_iso_code": "USD",
+          "currency_exchange_rate": 2.0,
+          "base_currency_iso_code": "EUR"
+        },
+        "line_item_id": 3129900,
+        "description_of_work": "Install drywall",
+        "net_amount": "5000.00",
+        "gross_amount": "6000.00",
+        "wbs_code": {
+          "id": 50,
+          "flat_code": "4.B",
+          "description": "Interiors.Drywall",
+          "segment_items": [
+            {
+              "id": 60,
+              "code": 4,
+              "name": "Interiors",
+              "path_ids": [[60]],
+              "path_codes": [["4 - Interiors"]],
+              "segment_type": "cost_code",
+              "segment_id": 44
+            }
+          ]
+        },
+        "scheduled_value": "100.00",
+        "work_completed_from_previous_application": "20.00",
+        "work_completed_this_period": "30.00",
+        "materials_presently_stored": "1200.00",
+        "materials_presently_stored_quantity": "60.0",
+        "materials_presently_stored_from_previous_progress": "200.00",
+        "materials_previously_stored_quantity": 10.0,
+        "materials_moved": "0.00",
+        "materials_retainage_retained_moved": "0.00",
+        "total_completed_and_stored_to_date": "50.00",
+        "total_completed_and_stored_to_date_percent": "50.0",
+        "total_completed_and_stored_to_date_from_previous": "20.00",
+        "work_completed_retainage_from_previous_application": "0.0",
+        "work_completed_retainage_retained_this_period": "2.0",
+        "work_completed_retainage_percent_this_period": "8.0",
+        "materials_stored_retainage_currently_retained": "0.0",
+        "materials_stored_retainage_percent_this_period": "8.0",
+        "materials_stored_retainage_new_materials": "8.0",
+        "work_completed_retainage_released_this_period": "0.0",
+        "materials_stored_retainage_released_this_period": "0.0",
+        "scheduled_quantity": "20.0",
+        "scheduled_unit_price": "250.0",
+        "work_completed_this_period_quantity": "5.0",
+        "work_completed_from_previous_application_quantity": "4.0",
+        "comment": "Drywall installation",
+        "status": "no_action",
+        "position": 3,
+        "line_number": "3.1",
+        "ssr_manual_override": false,
+        "subcontractor_claimed_amount": "0.0"
+      }
+    ]
+  }
+]
